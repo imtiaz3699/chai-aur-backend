@@ -20,10 +20,6 @@ connectDb()
 
 
 
-
-
-
-
 // import exrpress from 'express'
 // const app = express();
 
