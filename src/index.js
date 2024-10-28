@@ -3,9 +3,10 @@
 import dotenv from 'dotenv'
 import connectDb from "./database/db.js";
 import { app } from './app.js';
+// import {ApiError} from './utils/apiErrors.js'
 
 dotenv.config({
-    path:'./env'
+    path:'./.env'
 })
 connectDb()
 .then(()=> {
